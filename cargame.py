@@ -44,7 +44,7 @@ while running:
         if event.type ==QUIT:
             running=False
         if event.type ==KEYDOWN:
-            if event.key in[K_a,K_LEFT]
+            if event.key in[K_a,K_LEFT]:
                 car_loc=car_loc.move([- int(road_width/2),0])
             if event.key in[K_d,K_RIGHT]:
                 car_loc=car_loc.move([int(road_width/2),0])
