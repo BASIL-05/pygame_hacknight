@@ -33,6 +33,9 @@ while running:
     for event in pygame.event.get():
         if event.type ==QUIT:
             running=False
+        if event.type ==KEYDOWN:
+            if event.key in[K_a,K_LEFT]
+                car_loc=car_loc.move([- int(road_width
             
     screen.blit(car,car_loc)
     pygame.display.update()
