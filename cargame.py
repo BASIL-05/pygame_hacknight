@@ -51,7 +51,7 @@ while running:
     car=pygame.image.load("car.png")
 car_loc=car.get_rect()
 car_loc.center=width/2 + road_width/4,height+0.8  
-    pygame.draw.rect(
+pygame.draw.rect(
     screen,(50,50,50),(width/2-road_width/2,0,road_width,height)
 )
 pygame.draw.rect(
