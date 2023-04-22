@@ -47,7 +47,7 @@ while running:
             if event.key in[K_a,K_LEFT]
                 car_loc=car_loc.move([- int(road_width/2),0])
             if event.key in[K_d,K_RIGHT]:
-                car_loc=car_loc.move([int(road_width/2,0])
+                car_loc=car_loc.move([int(road_width/2),0])
     car=pygame.image.load("car.png")
 car_loc=car.get_rect()
 car_loc.center=width/2 + road_width/4,height+0.8  
