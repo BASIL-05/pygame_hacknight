@@ -63,8 +63,8 @@ pygame.draw.rect(
 pygame.draw.rect(
     screen,(255,240,60),(width/2+road_width/2- roadmark_width*3,0,roadmark_width,height)
 )
-    screen.blit(car,car_loc)
-    screen.blit(car2,car2_loc)
-    pygame.display.update()
+screen.blit(car,car_loc)
+screen.blit(car2,car2_loc)
+pygame.display.update()
 
 pygame.quit()
